@@ -1,7 +1,8 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Navigate from './components/Navigate.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <Navigate/>
+  <router-view/>
 </template>
