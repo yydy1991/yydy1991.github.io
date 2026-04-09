@@ -5,8 +5,8 @@ const router = useRouter()
 </script>
 
 <template>
-  <header>
-    <div class="logo">Berry 博瑞</div>
+  <header class="nav-header">
+    <div class="logo"><a @click="router.push('/')">Berry 博瑞</a></div>
     <nav>
       <ul>
         <li><a @click="router.push('/')">首页</a></li>
@@ -21,6 +21,7 @@ const router = useRouter()
 <style scoped>
 /* 顶部头部 */
 header {
+  height: 4vh;
   background-color: #2c3e50;
   color: white;
   padding: 0.6rem 1.5rem;
@@ -33,6 +34,7 @@ header {
 .logo {
   font-size: 22px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 /* 导航菜单 */
@@ -50,6 +52,7 @@ nav a {
   padding: 8px 12px;
   border-radius: 4px;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 nav a:hover {
