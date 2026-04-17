@@ -19,12 +19,6 @@ import vueLogo from '../assets/vue.svg'
             Explore Vite
           </a>
         </li>
-        <li>
-          <a href="https://vuejs.org/" target="_blank">
-            <img class="button-icon" :src="vueLogo" alt=""/>
-            Learn more
-          </a>
-        </li>
       </ul>
     </div>
     <div id="social">
@@ -47,35 +41,15 @@ import vueLogo from '../assets/vue.svg'
           </a>
         </li>
         <li>
-          <a href="https://github.com/vitejs/vite" target="_blank">
-            <svg class="button-icon" role="presentation" aria-hidden="true">
-              <use href="/icons.svg#github-icon"></use>
-            </svg>
-            GitHub
+          <a href="https://cn.vuejs.org/" target="_blank">
+            <img class="button-icon" :src="vueLogo" alt=""/>
+            Vue3
           </a>
         </li>
         <li>
-          <a href="https://chat.vite.dev/" target="_blank">
-            <svg class="button-icon" role="presentation" aria-hidden="true">
-              <use href="/icons.svg#discord-icon"></use>
-            </svg>
-            Discord
-          </a>
-        </li>
-        <li>
-          <a href="https://x.com/vite_js" target="_blank">
-            <svg class="button-icon" role="presentation" aria-hidden="true">
-              <use href="/icons.svg#x-icon"></use>
-            </svg>
-            X.com
-          </a>
-        </li>
-        <li>
-          <a href="https://bsky.app/profile/vite.dev" target="_blank">
-            <svg class="button-icon" role="presentation" aria-hidden="true">
-              <use href="/icons.svg#bluesky-icon"></use>
-            </svg>
-            Bluesky
+          <a href="https://cn.element-plus.org/zh-CN/" target="_blank">
+            <img class="button-icon" src="https://cn.element-plus.org/images/element-plus-logo-small.svg" alt="Element Plus">
+            Element Plus
           </a>
         </li>
       </ul>
