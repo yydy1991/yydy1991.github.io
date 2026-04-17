@@ -1,0 +1,1 @@
+import{tn as e}from"./index-AGZw1I9Y.js";export{e as ssao2PixelShaderWGSL};

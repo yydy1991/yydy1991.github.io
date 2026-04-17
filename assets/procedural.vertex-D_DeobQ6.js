@@ -1,0 +1,1 @@
+import{Nn as e}from"./index-AGZw1I9Y.js";export{e as proceduralVertexShaderWGSL};

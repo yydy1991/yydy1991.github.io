@@ -1,0 +1,1 @@
+import{Kn as e}from"./index-AGZw1I9Y.js";export{e as backgroundPixelShaderWGSL};
